@@ -1,0 +1,13 @@
+.logo{
+    @apply  sm:w-[120px] md:w-[160px]
+}
+.menus{
+    @apply md:text-[16px] font-semibold text-[18px] text-[#fff] font-poppins font-normal 
+
+}
+.menus ul{
+    @apply flex md:gap-[24px] gap-[7px]
+}
+.menus ul li{
+    @apply hover:text-[#4eb8e6] transition-all duration-150
+}
