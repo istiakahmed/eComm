@@ -49,8 +49,8 @@ const Navbar = () => {
             <div className="menus">
                     <ul>
                       <li><Link to='/'> Home </Link></li>
-                      <li><Link to='/Men'> Menz </Link></li>
-                      <li><Link to=''> Ladies </Link></li>
+                      <li><Link to='/product'> Menz </Link></li>
+                      <li><Link to='/ladies'> Ladies </Link></li>
                       <li><Link to=''> Subscription </Link></li>
                     
                     </ul>
