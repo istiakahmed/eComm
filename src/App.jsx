@@ -6,6 +6,7 @@ import Home from './Pages/Home/Home'
 import Men from './Components/Men/Men'
 import ProductCart from './Components/Products/Productcart'
 import Ladies from './Components/Ladies/Ladies'
+import Subscribe from './Components/Subscribe/Subscribe'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/Men' element ={<Men />} />
         <Route path='/product' element={<ProductCart />} />
         <Route path='/ladies' element={<Ladies />} />
+        <Route path='/subs' element={<Subscribe />} />
 
         </Route>
       </Route>

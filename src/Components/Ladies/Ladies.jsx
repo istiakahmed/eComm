@@ -15,7 +15,7 @@ const Ladies = () => {
 
   return (
     <>
-    <div className="transition-all duration-[.4s] dark:bg-black">
+    <div className="bg-[#F5F5F5] px-5 py-5 transition-all duration-[.4s] dark:bg-black">
 
 <div className="container">
     <div className="font-volkhov text-[40px] text-[#A6AEBF] flex justify-center items-center p-[10px]">
