@@ -1,0 +1,6 @@
+.login-istiak{
+    @apply flex flex-col justify-center font-[sans-serif] sm:h-screen p-4 transition-all duration-[.4s] dark:bg-black
+}
+.loginData-istiak{
+    @apply  max-w-md w-full mx-auto bg-[#EDE8DC] border border-gray-300 rounded-2xl p-8 
+}

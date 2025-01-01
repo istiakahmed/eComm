@@ -7,6 +7,8 @@ import Men from './Components/Men/Men'
 import ProductCart from './Components/Products/Productcart'
 import Ladies from './Components/Ladies/Ladies'
 import Subscribe from './Components/Subscribe/Subscribe'
+import Login from './Components/Login/Login'
+import Register from './Components/Register/Register'
 
 function App() {
 
@@ -14,6 +16,9 @@ function App() {
   const myRoute = createBrowserRouter(
     createRoutesFromElements(
       <Route>
+        <Route path='/login' element={<Login />} />
+        <Route path='/reg'  element={<Register />} />
+
         {/* =========== Layout ============== */}
         <Route path='/' element={<LayoutOne />} >
         <Route index element={<Home />} />
